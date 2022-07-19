@@ -236,7 +236,7 @@ aside .sidebar a:hover span{
 }
 
 aside .sidebar .mensajes{
-    background: var(--color-secundario);
+    background: var(--color-alerta);
     color: var(--color-blanco);
     padding: 2px 10px;
     font-size: 11px;
