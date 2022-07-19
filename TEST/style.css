@@ -49,6 +49,15 @@ body{
     overflow-x: hidden;
 }
 
+.container{
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    background: var(--color-fondo);
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+
 a {
     color: var(--color-oscuro);
 }
@@ -123,4 +132,16 @@ b {
 }
 .info-claro{
     color: var(--color-info-claro);
+}
+.oscuro{
+    color: var(--color-oscuro);
+}
+.claro{
+    color: var(--color-claro);
+}
+.primario-variante{
+    color: var(--color-primario-variante);
+}
+.oscuro-variante{
+    color: var(--color-oscuro-variante);
 }
