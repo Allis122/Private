@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+:root {
+    --color-primario: #7380ec;
+    --color-secundario: #f5e640;
+    --color-exitoso: #41f1b6;
+    --color-alerta: #ffbb55;
+    --color-blanco: #fff;
+    --color-info-oscuro: #7d8da1;
+    --color-info-claro: #dce1eb;
+    --color-oscuro: #363949;
+    --color-claro: rgba(132,139,200,0.18);
+    --color-primario-variante: #111e88;
+    --color-oscuro-variante: #677483;
+    --color-fondo: #f6f6f9;
+
+    --tarjeta-radio-borde: 2rem;
+    --radio-borde-1: 0.4rem;
+    --radio-borde-2: 0.8rem;
+    --radio-borde-3: 1.2rem;
+
+    --tarjeta-relleno: 1.8rem;
+    --relleno-1: 1.2rem;
+
+    --sombra-caja: 0.2rem 3rem var(--color-claro);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    font-size: 0.88rem;
+    background: var(--color-fondo);
+    user-select: none;
+    overflow-x: hidden;
+}
+
+a {
+    color: var(--color-oscuro);
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 0.87rem;
+}
+
+h4 {
+    font-size: 0.8rem;
+}
+
+h5 {
+    font-size: 0.77rem;
+}
+
+small{
+    font-size: 0.75rem;
+}
+
+.foto-perfil{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.texto-blanquito{
+    color: var(--color-info-oscuro);
+}
+
+p{
+    color: var(--color-oscuro-variante);
+}
+
+b {
+    color: var(--color-oscuro);
+}
+
+.primario{
+    color: var(--color-primario);
+}
+
+.secundario{
+    color: var(--color-secundario);
+}
+.exitoso{
+    color: var(--color-exitoso);
+}
+.alerta{
+    color: var(--color-alerta);
+}
+.blanco{
+    color: var(--color-blanco);
+}
+.info-oscuro{
+    color: var(--color-info-oscuro);
+}
+.info-claro{
+    color: var(--color-info-claro);
+}
